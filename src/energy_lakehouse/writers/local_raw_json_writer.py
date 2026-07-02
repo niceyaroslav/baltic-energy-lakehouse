@@ -1,0 +1,4 @@
+
+
+class RawJsonWriter:
+    pass
