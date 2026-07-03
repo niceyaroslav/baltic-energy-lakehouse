@@ -36,9 +36,3 @@ class NordPoolPrices:
             "payload": data
         }
         return result
-
-
-
-if __name__ == "__main__":
-    nordpool_prices = NordPoolPrices()
-    res = nordpool_prices.fetch_hourly_prices()

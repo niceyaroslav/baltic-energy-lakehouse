@@ -85,9 +85,3 @@ class OpenMeteo:
             },
             "payload": data
         }
-
-
-
-if __name__ == "__main__":
-    weather = OpenMeteo()
-    res = weather.fetch_hourly_temperature()

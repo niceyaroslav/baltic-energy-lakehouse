@@ -6,10 +6,10 @@ def run() -> None:
     client = OpenMeteo()
     writer = RawJsonWriter(base_path="data/bronze")
 
-    prices = client.fetch_hourly_temperature()
+    weather = client.fetch_hourly_temperature()
     writer.write(
         dataset="weather_hourly",
-        data=prices
+        data=weather
     )
 
 
