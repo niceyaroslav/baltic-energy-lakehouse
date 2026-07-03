@@ -36,3 +36,6 @@ spark-warehouse/
 
 # Logs
 *.log
+
+# Cache
+.cache.sqlite
