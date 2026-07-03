@@ -1,5 +1,5 @@
-from src.energy_lakehouse.clients import OpenMeteo
-from src.energy_lakehouse.writers import RawJsonWriter
+from energy_lakehouse.clients import OpenMeteo
+from energy_lakehouse.writers import RawJsonWriter
 
 
 def run() -> None:
